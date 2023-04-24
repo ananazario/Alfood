@@ -32,7 +32,7 @@ const FormularioPrato = () => {
         formData.append('tag', tag)
         formData.append('restaurante', restaurante)
 
-        if(imagem) {
+        if (imagem) {
             formData.append('imagem', imagem)
         }
 
@@ -45,11 +45,11 @@ const FormularioPrato = () => {
             data: formData
         })
             .then(() => {
+                alert('Prato cadastrado com sucesso!')
                 setNomePrato('')
                 setDescricao('')
                 setTag('')
                 setRestaurante('')
-                alert('Prato cadastrado com sucesso!')
             })
             .catch((erro) => console.log(erro))
     }

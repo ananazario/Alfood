@@ -1,6 +1,5 @@
-import { Paper, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Link, Button, Box, Container, AppBar, Toolbar, Typography } from '@mui/material';
+import { Paper, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Button } from '@mui/material';
 import { useEffect, useState } from 'react'
-import IRestaurante from '../../../interfaces/IRestaurante';
 import { Link as RouterLink } from 'react-router-dom';
 import http from '../../../http';
 import IPrato from '../../../interfaces/IPrato';
